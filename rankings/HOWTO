@@ -1,0 +1,5 @@
+python mercadoparser.py b mercado/bases.php.htm > players
+python mercadoparser.py a mercado/aleros.php.htm >> players
+python mercadoparser.py p mercado/pivots.php.htm >> players
+python mercadoparserToLong.py players > playerslong
+python analyseRounds.py playerslong valoraciones.html
