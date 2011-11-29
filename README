@@ -1,0 +1,10 @@
+This repository is meant to contain random code to parse data off 
+supermanager.acb.com and do some calculations on it.
+
+Currently there are 2 different things going on here:
+    + rankings: It is supposeed to contain the received stats (ranking) per 
+        team and per position (Similar to what can be found @
+            http://www.rincondelmanager.com/smgr/valoracion_rec.php)
+    + Backtracking algorithm to calculate the best team of each round (and
+        also what teams can get to a certain amount of points)
+
